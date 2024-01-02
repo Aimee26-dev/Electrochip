@@ -44,14 +44,21 @@
   display: flex;
   justify-content: space-between;
 }
+
 .description-about {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
+.title-about{
+  display: flex;
+}
+
+
 .image-about{
   width: 100%;
-  height: 200px;
+  display: flex;
+  flex-direction: column;
 }
 img {
   vertical-align: middle;
