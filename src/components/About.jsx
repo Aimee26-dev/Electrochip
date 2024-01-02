@@ -1,3 +1,5 @@
+import about1 from "../images/about-img1.jpg"
+import about2 from "../images/about-img2.jpg"
 function About(){
     return (
         <div className="contenair-about">
@@ -10,8 +12,12 @@ function About(){
 
             </div>
             <div className="image-about">
-                <img src="" alt="" />
-                <img src="" alt="" />
+                <div className="about-image-fist">
+                    <img  src={about1} alt="" />
+                </div>
+                <div className="about-image-second">
+                    <img  src={about2} alt="" />
+                </div>
             </div>
         </div>
     )
