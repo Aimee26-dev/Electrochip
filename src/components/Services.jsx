@@ -16,6 +16,7 @@ function Services() {
       <div className="services">
 
         <div className="service">
+         
         <img src={s1} alt="" /> 
 
          <div className="detail">
@@ -36,7 +37,7 @@ function Services() {
 
         <div className="service">
           <img src={s3} alt="" />
-          
+
           <div className="detail">
           <h5>Equipment Maintenance</h5>
           <p className="sercicesText">There are many variations of <br />passages of Lorem Ipsum available,</p>

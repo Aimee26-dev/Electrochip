@@ -64,3 +64,6 @@ border-style: none;
 font-size:1em;
 color:white;
 }
+.service:hover{
+border-top: rgb(53, 14, 80) solid 1em;
+}
