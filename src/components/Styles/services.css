@@ -1,0 +1,46 @@
+.services{
+display:flex;
+gap:10px;
+}
+.service{
+max-width:100%;
+background-color:rgb(236, 235, 235);
+text-align: center;
+padding-top:3em;
+padding-bottom:1em;
+border-radius:0.7em;
+}
+section{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap:10px;
+}
+img{
+max-width:90px;
+}
+.sercicesText{
+font-size:1.5em;
+font-weight:100;
+font-family: Arial, Helvetica, sans-serif;
+text-align:center;
+}
+h5{
+font-size:1.5rem;
+color: blueviolet;
+}
+.detail{
+padding-top:-53em;
+}
+button{
+background-color: blueviolet;
+padding-left:3em;
+padding-top:1em;
+padding-bottom:1em;
+padding-right:3em;
+border-radius:90px;
+border-style: none;
+font-size:1em;
+color:white;
+}
