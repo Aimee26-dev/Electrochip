@@ -41,7 +41,7 @@ margin-top:1px;
 }
 h5{
 font-size:1.5rem;
-color: blueviolet;
+color: #4B208c;
 }
 h2{
 font-size:2em;
@@ -54,7 +54,7 @@ width:0.7em;
 padding-top:4em;
 }
 button{
-background-color: blueviolet;
+background-color:#4B208c;
 padding-left:3em;
 padding-top:1em;
 padding-bottom:1em;
@@ -65,5 +65,5 @@ font-size:1em;
 color:white;
 }
 .service:hover{
-border-top: rgb(53, 14, 80) solid 1em;
+border-top: #4B208c solid 1em;
 }
