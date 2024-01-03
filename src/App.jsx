@@ -1,14 +1,15 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import Logo from './components/Logo'
+import SectionTree from './components/SectionTree'
 
 function App() {
 
   return (
     <>
      <Logo/> 
+     <SectionTree/>
     </>
   )
 }

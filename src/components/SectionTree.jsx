@@ -1,20 +1,24 @@
+import bl1 from "../images/blog1.jpg";
+import bl2 from "../images/blog2.jpg";
+import plug from "../images/plug.png";
 
 function SectionTree(){
 return(
-
-<section>
-<h1>Blog</h1>
+<section className="SectionTree">
+<h1 className="title">Blog
+<span><img  className="imgBlog" src={plug} alt="" /></span>
+</h1>
 <div className="blogs">
     <div  className="blog1">
-<img src="" alt="" className="image1" /> 
-<h2>Blog Title Goes Here</h2>
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration 
+<img src={bl1} alt="" className="image1" /> 
+<h2  className="titleDescription">Blog Title Goes Here</h2>
+<p className="Description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration 
     in some form, by injected humour, or randomised </p>
     </div>
-    <div  className="blog2">
-<img src="" alt="" className="image2"/>
-<h2>Blog Title Goes Here </h2>
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration 
+    <div  className="blog1">
+<img src={bl2} alt="" className="image2"/>
+<h2 className="titleDescription">Blog Title Goes Here </h2>
+<p className="Description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration 
     in some form, by injected humour, or randomised </p>
     </div>
 </div>
