@@ -1,7 +1,7 @@
-function Button(){
+function Button({title,d}){
     return(
-        <div>
-            <button className="button">Contact Us</button>
+        <div className="electrochip">
+            <button className="button">{title}</button>
         </div>
     )
 }
