@@ -67,12 +67,19 @@ margin: 1em;
   margin: 1em;
 }
 
-.text{
-  align-items: center;
-height: 30em;
-line-height: 10px;
+  .titre{
+    text-align: center;
+  }
+  
+.titre h2{
+margin-right: 12em;
 }
 
 .ecrit{
   font-style: italic;
+}
+.picture img{
+  border-radius: 50%;
+  border: 5px solid;
+  border-color: blueviolet;
 }

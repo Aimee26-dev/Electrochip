@@ -14,7 +14,9 @@ function App() {
            <Logo/> 
            <Hommebutton/>
      </div>
+     <div className="electrochip">
      <Text/>
+     </div>
     </div>
   )
 }
