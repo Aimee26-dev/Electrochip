@@ -9,7 +9,7 @@ import "./Styles/services.css";
 function Services() {
   return (
     <section>
-      <h2 className="sercicesText">
+      <h2>
         Our Services<img src={plugs} alt="" />
       </h2>
 
@@ -26,14 +26,22 @@ function Services() {
 
         <div className="service">
           <img src={s2} alt="" />
+
+          <div className="detail">
           <h5 >Windmill Energy</h5>
           <p className="sercicesText">There are many variations of <br />passages of Lorem Ipsum available,</p>
+          </div>
+          
         </div>
 
         <div className="service">
           <img src={s3} alt="" />
+          
+          <div className="detail">
           <h5>Equipment Maintenance</h5>
           <p className="sercicesText">There are many variations of <br />passages of Lorem Ipsum available,</p>
+          </div>
+          
         </div>
 
       </div>
@@ -42,14 +50,19 @@ function Services() {
 
       <div className="service">
           <img src={s4} alt="" />
+          <div className="detail">
           <h5>Offshore Engineering</h5>
           <p className="sercicesText">There are many variations of <br /> passages of Lorem Ipsum available,</p>
+          </div>
+          
         </div>
 
         <div className="service">
           <img src={s5} alt="" />
+          <div className="detail">
           <h5>Electrical Wiring</h5>
           <p className="sercicesText">There are many variations of <br /> passages of Lorem Ipsum available,</p>
+          </div>
         </div>
       
       </div>
