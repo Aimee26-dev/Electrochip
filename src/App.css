@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #f3f0f6;
 }
 
 .logo {
@@ -52,6 +53,10 @@
 }
 .title-about{
   display: flex;
+}
+.description{
+  padding: auto;
+  margin-right: 189px;
 }
 
 
