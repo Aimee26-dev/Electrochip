@@ -64,15 +64,39 @@ img {
   vertical-align: middle;
   border-style: none;
 }
+.logo-about{
+  height: 30px;
+  padding-top: 44px;
+  margin: 10px;
+}
+
+
 .about-image-fist{
   width: 65%;
   border-radius: 100%;
   border: 5px solid #7b57b2;
   overflow: hidden;
+  margin-left: 60px;
 }
 .about-image-second{
   width: 40%;
   border-radius: 100%;
   border: 5px solid #7b57b2;
   overflow: hidden;
+  margin-left: auto;
+  margin-top: -45px;
+}
+.button-about {
+  padding: 10px 15px;
+  background-color: #4b208c;
+  color: #ffffff;
+  border-radius: 5px;
+  margin: 25px 0 45px 0;
+  width: 118px;
+}
+.button-about:hover{
+  background-color: #2d0071;
+}
+p {
+  text-align: left;
 }

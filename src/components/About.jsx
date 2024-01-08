@@ -6,11 +6,13 @@ function About(){
         <div className="contenair-about">
             <div className="description-about">
                 <div className="title-about">
-                <h1>About Us</h1>
-                <img src={plug} alt="" />
+                    <h1>About Us</h1>
+                    <img className="logo-about" src={plug} alt="" />
                 </div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum esse reprehenderit iure a ipsam officiis laboriosam ipsa, doloremque eius numquam labore ex officia harum porro fugit dolorum! Dicta, incidunt ducimus.</p>
-                <button>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
+                </div>
+                <button className="button-about">
                     Read More
                 </button>
 
